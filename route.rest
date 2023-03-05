@@ -1,0 +1,28 @@
+GET http://localhost:3000/users
+###
+
+GET http://localhost:3000/users/640423a590014d1cf194a0b2
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Akshith Ponugoti",
+    "email": "akshithponugoti@gmail.com",
+    "age": "16"
+}
+
+###
+
+DELETE http:localhost:3000/users/64042b78abfab61f8b37b392
+
+###
+
+PATCH http:localhost:3000/users/6404285adba6984af10d519e
+Content-Type: application/json
+
+{
+    "name": "Ponugoti Sai Deekshith"
+}
